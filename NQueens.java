@@ -1,4 +1,3 @@
-package com.codingblocks.Recursion;
 
 public class NQueens {
 
