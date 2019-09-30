@@ -1,5 +1,4 @@
 
-
 import java.util.ArrayList;
 
 public class MazePath {
@@ -12,9 +11,7 @@ public class MazePath {
 
         mazePath2(0,0,3,"",result);
         System.out.println(result);
-
-    }
-
+}
     public static ArrayList<String> mazePath(int row,int col,int size){
 
         if(row==size-1 && col==size-1){
@@ -27,8 +24,7 @@ public class MazePath {
             ArrayList<String> temp = new ArrayList<>();
             return temp;
         }
-
-
+        
         ArrayList<String> myRes = new ArrayList<>();
 
         ArrayList<String> recResV = mazePath(row+1,col,size);
