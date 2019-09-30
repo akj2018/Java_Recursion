@@ -59,7 +59,5 @@ public class MazePath {
 
         mazePath2(row+1,col,size,processed+"V",str);
         mazePath2(row,col+1,size,processed+"H",str);
-
-
     }
 }
